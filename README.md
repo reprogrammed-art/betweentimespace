@@ -5,11 +5,11 @@ CC-BY Martin Fröhlich
 
 
 
-Bill of Materials
+**Bill of Materials**
 
-*1 x	wooden board of approx. 900 x 900 x 18 mm
-*2 x 	square alluminium bar. l = 1m / 20 x 20 mm, 2mm wall strength
-*1 x 	sheet plexiglas of  approx. 900 x 600 x 6 mm
+- 1 x	wooden board of approx. 900 x 900 x 18 mm
+- 2 x 	square alluminium bar. l = 1m / 20 x 20 mm, 2mm wall strength
+- 1 x 	sheet plexiglas of  approx. 900 x 600 x 6 mm
 *1 x 	sheet plexiglas of  approx. 900 x 600 x 4 mm
 *1 x 	sheet plexiglas of  approx. 400 x 400 x 1 mm
 *50 x 	Ballbearings 9 / 4 / 4 mm
