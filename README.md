@@ -10,18 +10,18 @@ CC-BY Martin Fröhlich
 - 1 x	wooden board of approx. 900 x 900 x 18 mm
 - 2 x 	square alluminium bar. l = 1m / 20 x 20 mm, 2mm wall strength
 - 1 x 	sheet plexiglas of  approx. 900 x 600 x 6 mm
-*1 x 	sheet plexiglas of  approx. 900 x 600 x 4 mm
-*1 x 	sheet plexiglas of  approx. 400 x 400 x 1 mm
-*50 x 	Ballbearings 9 / 4 / 4 mm
-*2 x	Ballbearings 42 / 20 / 12 mm
-*1 x	Brass rod  l= 1m /  d = 4 mm (pairs with the 9/4/4 ballbearings)
-*2 x 	Copper rod l = 1m / d = 1.45mm
-*2 x 	Copper rod l = 1m /  d = 1.55m
-*1 x 	Acryllic two-component glue
-*1 x	instant adhesive superglue (i.e. Loctite 401)
-*1 x 	elastic l = 2m / d = 3mm. 
-*8 x 	rivets (see shape and dimension inside blender file)
-*1 x	DC electromotor with approx. 120 - 240 rpm.
+- 1 x 	sheet plexiglas of  approx. 900 x 600 x 4 mm
+- 1 x 	sheet plexiglas of  approx. 400 x 400 x 1 mm
+- 50 x 	Ballbearings 9 / 4 / 4 mm
+- 2 x	Ballbearings 42 / 20 / 12 mm
+- 1 x	Brass rod  l= 1m /  d = 4 mm (pairs with the 9/4/4 ballbearings)
+- 2 x 	Copper rod l = 1m / d = 1.45mm
+- 2 x 	Copper rod l = 1m /  d = 1.55m
+- 1 x 	Acryllic two-component glue
+- 1 x	instant adhesive superglue (i.e. Loctite 401)
+- 1 x 	elastic l = 2m / d = 3mm. 
+- 8 x 	rivets (see shape and dimension inside blender file)
+- 1 x	DC electromotor with approx. 120 - 240 rpm.
 
 **What to take care of when choosing the materials:**
 
