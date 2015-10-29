@@ -1,4 +1,4 @@
-# betweentimespace
+# Between time and space
 The documentation of the artwork Between time and space, Martin Frohlich, 2015
 Version 1.0  2015.03.16
 CC-BY Martin Fröhlich
@@ -7,26 +7,23 @@ CC-BY Martin Fröhlich
 
 Bill of Materials
 
-1 x	wooden board of approx. 900 x 900 x 18 mm
-2 x 	square alluminium bar. l = 1m / 20 x 20 mm, 2mm wall strength
-1 x 	sheet plexiglas of  approx. 900 x 600 x 6 mm
-1 x 	sheet plexiglas of  approx. 900 x 600 x 4 mm
-1 x 	sheet plexiglas of  approx. 400 x 400 x 1 mm
-50 x 	Ballbearings 9 / 4 / 4 mm
-2 x	Ballbearings 42 / 20 / 12 mm
-1 x	Brass rod  l= 1m /  d = 4 mm (pairs with the 9/4/4 ballbearings)
-2 x 	Copper rod l = 1m / d = 1.45mm
-2 x 	Copper rod l = 1m /  d = 1.55m
-1 x 	Acryllic two-component glue
-1 x	instant adhesive superglue (i.e. Loctite 401)
-1 x 	elastic l = 2m / d = 3mm. 
-8 x 	rivets (see shape and dimension inside blender file)
-1 x	DC electromotor with approx. 120 - 240 rpm.
+*1 x	wooden board of approx. 900 x 900 x 18 mm
+*2 x 	square alluminium bar. l = 1m / 20 x 20 mm, 2mm wall strength
+*1 x 	sheet plexiglas of  approx. 900 x 600 x 6 mm
+*1 x 	sheet plexiglas of  approx. 900 x 600 x 4 mm
+*1 x 	sheet plexiglas of  approx. 400 x 400 x 1 mm
+*50 x 	Ballbearings 9 / 4 / 4 mm
+*2 x	Ballbearings 42 / 20 / 12 mm
+*1 x	Brass rod  l= 1m /  d = 4 mm (pairs with the 9/4/4 ballbearings)
+*2 x 	Copper rod l = 1m / d = 1.45mm
+*2 x 	Copper rod l = 1m /  d = 1.55m
+*1 x 	Acryllic two-component glue
+*1 x	instant adhesive superglue (i.e. Loctite 401)
+*1 x 	elastic l = 2m / d = 3mm. 
+*8 x 	rivets (see shape and dimension inside blender file)
+*1 x	DC electromotor with approx. 120 - 240 rpm.
 
-
-
-
-What to take care of when choosing the materials:
+**What to take care of when choosing the materials:**
 
 the plexiglas I used was not in the thickness specified. The 6mm thick one was between 5.9 and 6.3mm (which was not so crucial), but the 4mm thick one was between 3.5 and 4.1 mm, which caused some problems because the pieces that needed to be stuck together where not tight enough. Or sometimes they didn’t fit because to thick. Or something stuck out because to thin. So make sure the thickness of the plexi is as close to its specified thickness. Don’t measure just at one corner, measure all corners.
 
@@ -50,16 +47,16 @@ The current files (and the blender design) are dimensioned according to the tole
 
 Pairs to test  (you don’t need to print out the complete big pieces, just the parts that matter): 
 
-WheelCage – WheelCageDistancer (tight)
-WheelCage – small Bearings (strong pressing force needed)
-WheelCage – 1.55 mm copper rod (tight)
-DriverBase – small Bearings (strong pressing force needed)
-DriverBase – big Bearing (strong pressing force needed)
-DriverBase – WheelCageDistancer (tight)
+*WheelCage – WheelCageDistancer (tight)
+*WheelCage – small Bearings (strong pressing force needed)
+*WheelCage – 1.55 mm copper rod (tight)
+*DriverBase – small Bearings (strong pressing force needed)
+*DriverBase – big Bearing (strong pressing force needed)
+*DriverBase – WheelCageDistancer (tight)
 
 Several 4mm gears need to have the 4mm brass rod as a shaft. This has to be super tight for ALL of them (see blender): 
-example for 4mm: Gear_Spur_Lever_Driver
-example for 6mm: Lever
+*example for 4mm: Gear_Spur_Lever_Driver
+*example for 6mm: Lever
 
 if the above requirements are not met, you either
 
@@ -67,7 +64,7 @@ if the above requirements are not met, you either
 	2.	adjust the current files inside Inkscape or Illustrator or any other vector program. Make sure the scaling doesn’t play a prank on you (as it did on me).
 
 
-Preparations
+**Preparations**
 After cutting the Pieces
 
 Unfortunately right after cutting the pieces comes the hard part. Because the elastics put significant force onto the whole drive, there are some momentums that have to be checked with rotation locks at certain parts. All the following pieces need to have a 1.5mm hole drilled into them (see in detail blender file):
@@ -82,7 +79,7 @@ However, this has to be done so precisely, that I had a more than 50% waste. The
 
 And, even more tricky, the shafts themselves need each two 1.5mm hole drilled precisely centric and perpendicular to the rod and parallel to each other. For this I had to create a boring template because the 1.5mm drill is very flexible, and drilling a round rod like this is very tricky. If you don’t have mechanical expertise you should consider asking a mechanic to do this for you. The more precise you work here, the less problems you will have during the assembly.
 
-Board
+**Board**
 
 Before you can start with the final assembly you need to prepare the Board on which the whole piece is assembled, with the right holes at the right place. There is no plan in existence for this, and  blender will give the right coordinates, at least for the holes of the attachment of the two big drives. The MirrorBase has a design that allows adjustment of the distance to the DriverBase, so slight imprecisions can be corrected. But drilling the holes for the TransmissionCage I suggest a different approach. First assemble the MirrorBase with its Gear and the DriverBase with its Gear and attach it to the board with the proper screws and tight things up as they would be at the final assembly. Then roughly place the TransmissionCage on the board where it should be, and stick the assembled Gear_Spur_130 with shaft into its assign hole of the TransmissionCage. This way you can see how far away the TransmissionCage needs to be so the Gear_Spur_20 pairs up with the Gear_Spur_160 in a fitting way. Now you can drill the holes for the TransmissionCageHolder and use the holes of the TransmissionCage as a guide. Once this is done remove the Gear_Spur_130 and drill this hole as well.  Now you can assemble the Transmission and place the motor in a similar way. I dont give here specific instructions on how to do this, the blender file gives a suggestion on how big a hole you need and how you could attach the motor to the board and its gear. But since I don’t know the form factor of you motor, I will have to leave this problem to you and you ingenuity. 
 Once all the holes are done and the motor problem is solved you can disassemble everything. Now you can attach the two square aluminum bars at the back, one near the top, one near the bottom. This gives some space in the back for the motor. If 20mm is not enough because your motor needs more space then choose the dimensions accordingly.
@@ -93,12 +90,12 @@ The explosion drawings used in this document were done before I finalized the ob
 Transmission
 
 Check the length of the TransmissionCageHolder and the Shaft_Spur_20mm inside blender. In my solution I used a LeverMultiplyer_Distance_4mm to fix the TransmissionCage to the CageHolder. (this also needs to be is a very tight fit – see above). The little hole inside Gear_Spur_20, TransmissionGearDistancer and Gear_Spur_130 is for a 1.55 copper rod as a rotation lock.
-DriverBase
 
+**DriverBase**
 The DriverBase looks now a bit different. At the end I didnt use the MasterBearingDistancer, but made sure the 3 MasterBearing_CentralRod are super tight inside the ball bearing and the bearing has some space to the DriverBase. There is now a new piece called MasterBearing_CentralTopRod. Check blender for more details. The MasterBearing_CentralRod is glued to the DriverBase with superglue. Be careful though: The new design has also a different Main_Shaft_TorqueStop (see next step) that goes into the DriverBase. Everything needs to be super tight, so it can disassembled if needed, but has no play what's however.
 The DriverBase is actually only attached to the board at the end of the complete assembly of the drive.
-MasterCog
 
+**MasterCog**
 The sequence of assembly is actually a bit different than depicted here and the last picture. I put the BallBearing 42/20/12 first into the Gear_Spur_160 with some superglue. Because of the superglue this has to be done very quickly, and it has to be done very precisely otherwise the Gear is not level to the board. Also press the BallBearing_9/4/4 into the Gear_Spur_160 before assembling it with the DriverBase. (see blender for correct positioning)
 The Main_Shaft_TorqueStop and Gear_Elliptical_42 are glued together before assembly. The new piece MasterBearing_CentralTopRod can be glued to this combo, too. (See blender for details).
 Be careful: don’t mix  Gear_Spur_160_M2_Driver with Gear_Spur_160_M2_Mirror, they are not the same!!!
@@ -107,8 +104,7 @@ TimeGear
 The little holes in the gears are for the 1.55m copper rod as a rotation lock. Make sure your gears are placed as show here, so the elliptical gears align properly. The Shaft_4.6cm is now 3.7cm and there are 1.5mm holes in the shaft and the Gear_Spur_Lever_Multiplier. (see under Preparations)
 
 
-TimerGear Completed
-
+**TimerGear Completed**
 Before you can get to the next step, you need to assemble the cogs accordingly. It is of utmost importance that the cogs don’t jump a teeth, otherwise the elliptic gears get stuck and the timing would be off.
 WheelCage
 
@@ -119,16 +115,13 @@ Make sure you align the pieces exactly as shown here. Shaft_16mm is actually 19m
 Lever Completed
 
 
-MirrorBase
-
+**MirrorBase**
 The Design of the MirrorBase has changed with features to attach it to the Board with M6 hexagonal head screws. There is also a M4 hexagonal head screw to attach the MirrorBase to the MirrorBase_AngleBracket which allows for shifts to set the correct distance for the two big wheels once they are assembled. Follow the same assembly instructions as with the DriverBase.
 
-MirrorCog Completed
-
+**MirrorCog Completed**
 Repeat the assembly with the MirrorDrive. However you have to look at it from the other side. Make sure the Gear_Elliptical_42_0.08_Slave looks the other way. Check first blender to get properly started – even I had to reassemble the MirrorDrive twice.
 
-Completion
-
+**Completion**
 The rivets and Head_Plates are not assembled yet. The Head_Plates have the 1.55 mm pins glued into them so they can be stuck onto the Heads.
 I used needle and a very tough thread to pull the elastics through the rivets first. The length for the four connecting elastics is measured on the piece at the point where the two opposing Heads are closest to each other. The elastic should be just barely pulled at this point to reduce the forces as much as possible. Once all four elastics are riveted, they can be pushed into the Head_Plates, but only so deep that the two elastic circular bands can slide between rivet-head and Head_Plate. Then rotate the wheels  45 degrees from the assembly position. Now measure the length for the circular bands. This position is the shortest length. Again make sure to set the length of the bands so that they just barely pull. Use superglue to stick the two ends together.
 Now you can assemble all the elastics. If the holes inside the Head were dimensioned right, the Head_Plates should not be pulled out during operation. If they do, just slightly bend the 1.55mm pins. You don’t wanna glue them, because then you will be in trouble if you need to disassemble the piece again.
