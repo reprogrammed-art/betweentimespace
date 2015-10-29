@@ -1,7 +1,8 @@
-# Between time and space
+# Between Time and Space
 The documentation of the artwork Between time and space, Martin Frohlich, 2015
 Version 1.0  2015.03.16
 CC-BY Martin Fröhlich
+http://www.maybites.ch/works/betweentimeandspace/
 
 
 
